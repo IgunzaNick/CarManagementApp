@@ -24,7 +24,7 @@ import lombok.NoArgsConstructor;
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class)
 
 
-public class Country extends Auditable<String> {
+public class Country {
 
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Id
